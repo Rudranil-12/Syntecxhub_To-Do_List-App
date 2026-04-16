@@ -7,6 +7,9 @@ This is my second project for my internship. It is a "To-Do List" Web Applicatio
 ---
 
 ## 🛠️ Technologies Used
-HTML5 – Structure of the webpage.
-CSS3 – Styling and layout.
-JavaScript – Basic interactivity
+
+- HTML5 – Structure of the webpage.
+- CSS3 – Styling and layout.
+- JavaScript – Basic interactivity.
+
+---
