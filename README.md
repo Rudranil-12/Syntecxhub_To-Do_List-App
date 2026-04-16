@@ -5,3 +5,8 @@
 This is my second project for my internship. It is a "To-Do List" Web Application developed using vanilla JavaScript.
 
 ---
+
+## 🛠️ Technologies Used
+HTML5 – Structure of the webpage.
+CSS3 – Styling and layout.
+JavaScript – Basic interactivity
