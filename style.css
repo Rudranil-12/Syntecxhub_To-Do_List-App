@@ -1,4 +1,3 @@
-/* Background with gradient + depth */
 body {
   font-family: 'Poppins', sans-serif;
   background: linear-gradient(135deg, #1f1c2c, #928dab);
@@ -23,6 +22,7 @@ body {
   transform-style: preserve-3d;
   transition: transform 0.3s ease;
 }
+
 .todo-container:hover {
   transform: rotateY(6deg) rotateX(3deg);
 }
@@ -41,6 +41,11 @@ h1 {
   margin-bottom: 20px;
 }
 
+#taskInput:hover{
+    border: 2px solid #00ff7f;
+    color: #ff4b2b;
+}
+
 .input-area input {
   flex: 1;
   padding: 12px;
@@ -53,6 +58,7 @@ h1 {
   outline: none;
   transition: 0.3s;
 }
+
 .input-area input:focus {
   box-shadow: inset 2px 2px 8px #babecc,
               inset -2px -2px 8px #fff;
@@ -69,10 +75,12 @@ h1 {
   box-shadow: 4px 4px 12px rgba(0,0,0,0.3);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
 .input-area button:hover {
   transform: translateY(-2px);
   box-shadow: 6px 6px 14px rgba(0,0,0,0.4);
 }
+
 .input-area button:active {
   transform: translateY(2px);
   box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
